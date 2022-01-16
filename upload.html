@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quaran Course</title>
-<link rel="stylesheet" href="index2.css">
+  <link rel="stylesheet" href="index2.css">
 </head>
 <body>
 <div id="app">
@@ -16,6 +16,7 @@
 		<a class="menu_item" href="index.html">
 			Upload
 		</a>
+		<span>&nbsp;</span>
 		<a class="menu_item" href="news.html">
 			News
 		</a>
@@ -27,24 +28,27 @@
 	</div>
 	<hr/>
 	<div class="main_header">
-		Profile
+		Upload
 	</div>
 	<hr/>
-	<div class="profile_header">
-		<div class="profile_header_item">
+	<div class="upload_header">
+		<div class="upload_header_item">
 			Lawend
 		</div>
+		<div class="upload_header_item">
+			10 Years old
+		</div>
 	</div>
 	<hr/>
-	<div class="profile_body">
-		<div class="profile_body_item">
-			M -- -- --
-		</div>
-		<div class="profile_body_item">
-			M -- -- -- 
-		</div>	
+	<div class="upload_body">
+		<label for="file">Recording:</label><input type="file" id="file" name="file" />
+		<label for="file">Surah:</label><input type="select" id="surah" name="surah" />
+		<label for="file">From:</label><input type="number" id="from" name="from" />
+		<label for="file">To:</label><input type="number" id="to" name="to" />
+		<input type="submit" />
 	</div>
 </div>
+
 <div id="footer"></div>
 </body>
 </html>
